@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+dataset/raw_audio/*
+dataset/processed_audio/*
+trained_models/*.pth
+.env
