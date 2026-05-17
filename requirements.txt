@@ -4,6 +4,7 @@ torchvision
 torchaudio
 transformers
 librosa
+matplotlib
 soundfile
 numpy
 pandas
