@@ -7,7 +7,10 @@ import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 from transformers import BertTokenizer
+import sys
+import os
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Import local architectures securely
 from models.speech_pipeline.model import SpeechEmotionModel
 from models.text_pipeline.model import TextEmotionModel
