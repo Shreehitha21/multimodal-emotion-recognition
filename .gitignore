@@ -3,5 +3,6 @@ __pycache__/
 *.pyc
 dataset/raw_audio/*
 dataset/processed_audio/*
-trained_models/*.pth
+!trained_models/
+!trained_models/*.pth
 .env
